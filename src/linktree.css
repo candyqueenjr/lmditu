@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "segoe UI";
+  src: url("/src/SegoeUI/Segoe\ UI.woff2") format("woff2"),
+    url("/src/SegoeUI/Segoe\ UI\ Bold.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-image: url(/src/img/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "segoe UI";
+}
+
+.box {
+  width: 500px;
+  height: 120vh;
+  border-left: 1px solid #333333;
+  border-right: 1px solid #333333;
+  box-sizing: border-box;
+}
+
+.logo-box {
+  align-items: center;
+  height: 216px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#logo {
+  padding-left: 120px;
+  padding-top: 50px;
+  display: block;
+  width: 270px;
+  height: 100px;
+}
+
+.par {
+  font-family: "segoe UI";
+  font-size: 16px;
+  color: #cccccc;
+  width: 100%;
+  margin-top: 80px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.websites {
+  margin-top: 20px;
+  border-top: 1px solid #333333;
+  width: 500px;
+  margin-left: -12px;
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  padding: 30px;
+}
+
+.button-box {
+  margin-top: 20px;
+  margin-left: -12px;
+  width: 499px;
+  height: 70px;
+  background-color: #dffe00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pages {
+  width: 499px;
+  height: 70px;
+  font-family: "segoe UI";
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.button-box1 {
+  margin-top: 5px;
+  margin-left: -12px;
+  width: 499px;
+  height: 70px;
+  background-color: #dffe00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+  .box {
+    width: 80%; /* 80% of the viewport width */
+    height: auto; /* Let the height adjust automatically */
+    border: none; /* Remove borders for mobile view */
+  }
+
+  .logo-box {
+    height: auto; /* Let the height adjust automatically */
+  }
+
+  #logo {
+    padding-left: 8%; /* 80% of the original padding */
+    padding-top: 5%; /* Adjusted padding */
+    width: 80%; /* 80% of the original width */
+    height: auto; /* Let the height adjust automatically */
+  }
+
+  .par {
+    margin-top: 5%; /* Adjusted margin */
+    padding-bottom: 10px; /* Adjusted padding */
+    font-size: 80%; /* 80% of the original font size */
+  }
+
+  .websites {
+    margin-top: 10px; /* Adjusted margin */
+    width: 80%; /* 80% of the original width */
+    margin-left: auto; /* Center align */
+    margin-right: auto; /* Center align */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow flex items to wrap */
+  }
+
+  .link {
+    padding: 20px; /* Adjusted padding */
+  }
+
+  .button-box, .button-box1 {
+    margin-top: 10px; /* Adjusted margin */
+    width: 80%; /* 80% of the original width */
+    height: auto; /* Let the height adjust automatically */
+    margin-left: auto; /* Center align */
+    margin-right: auto; /* Center align */
+  }
+
+  .pages {
+    width: 100%; /* Full width for buttons */
+    height: auto; /* Let the height adjust automatically */
+    font-size: 80%; /* 80% of the original font size */
+  }
+}
