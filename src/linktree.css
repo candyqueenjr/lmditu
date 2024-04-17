@@ -100,30 +100,44 @@ body {
 
 @media (max-width: 768px) { /* Adjust the breakpoint as needed */
   .box {
-    width: 80%; /* 80% of the viewport width */
-    height: auto; /* Let the height adjust automatically */
-    border: none; /* Remove borders for mobile view */
-  }
-
-  .logo-box {
-    height: auto; /* Let the height adjust automatically */
+    width: 80%;
+    height: auto; 
   }
 
   #logo {
-    padding-left: 8%; /* 80% of the original padding */
-    padding-top: 5%; /* Adjusted padding */
-    width: 80%; /* 80% of the original width */
-    height: auto; /* Let the height adjust automatically */
+    width: 90%; 
+    height: auto;
+    padding: 0;
   }
+
+  .logo {
+    align-items: center;
+    width: 90%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .logo-box {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* .par {
+    display: none;
+  } */
 
   .par {
-    margin-top: 5%; /* Adjusted margin */
-    padding-bottom: 10px; /* Adjusted padding */
-    font-size: 80%; /* 80% of the original font size */
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 2px;
   }
+  
 
   .websites {
-    margin-top: 10px; /* Adjusted margin */
+    margin-top: 30px; /* Adjusted margin */
     width: 80%; /* 80% of the original width */
     margin-left: auto; /* Center align */
     margin-right: auto; /* Center align */
@@ -133,20 +147,20 @@ body {
   }
 
   .link {
-    padding: 20px; /* Adjusted padding */
+    padding: 10px; 
+    width: 60px;
+    height: 60px;
   }
 
   .button-box, .button-box1 {
     margin-top: 10px; /* Adjusted margin */
     width: 80%; /* 80% of the original width */
-    height: auto; /* Let the height adjust automatically */
     margin-left: auto; /* Center align */
     margin-right: auto; /* Center align */
   }
 
   .pages {
     width: 100%; /* Full width for buttons */
-    height: auto; /* Let the height adjust automatically */
     font-size: 80%; /* 80% of the original font size */
   }
 }
